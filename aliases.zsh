@@ -4,6 +4,8 @@ function get {
 	paplay "/usr/share/sounds/ubuntu/stereo/message.ogg" 
 }
 
+alias clip='xclip -selection clipboard'
+
 # Push and pop directories on directory stack
 alias pu='pushd'
 alias po='popd'
